@@ -15,7 +15,7 @@ class SearchPage:
     URL = "https://www.youtube.com/"
 
     SEARCH_FORM = (By.ID, "search-form")
-    SEARCH_INPUT_BOX = (By.ID, "search")
+    SEARCH_INPUT_BOX = (By.ID, "search-input")
     SEARCH_RESULTS = (By.ID, "contents")
 
     def __init__(self, driver):
